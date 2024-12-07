@@ -1,0 +1,52 @@
+.flashsale {
+    width: 80%;
+    height: 400px;
+    background-color: white;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(6, 200px);
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.flashsalebox {
+    width: 210px;
+    height: 290px;
+}
+
+.onsalenow {
+    width: 80%;
+    height: 50px;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(2, 800px);
+    gap: 200px;
+    background-color: white;
+}
+
+.sale {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: sans-serif;
+    color: rgb(253, 81, 2);
+}
+
+.salebutton {
+    text-align: center;
+    margin-top: 10px;
+    font-size: medium;
+    font-family: sans-serif;
+    color: rgb(253, 81, 2);
+    width: 200px;
+    height: 35px;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border: 1px solid orangered;
+}
+
+.line {
+    width: 80%;
+}
